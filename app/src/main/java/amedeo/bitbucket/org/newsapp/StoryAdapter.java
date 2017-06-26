@@ -18,7 +18,6 @@ public class StoryAdapter extends BaseAdapter {
 
     private LayoutInflater inflater;
     private List<Story> stories = new ArrayList<Story>();
-    Context context;
 
     public StoryAdapter(Context context, List<Story> stories) {
         this.stories = stories;
